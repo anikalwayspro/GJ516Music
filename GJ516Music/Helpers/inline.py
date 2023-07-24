@@ -49,8 +49,9 @@ pm_buttons = [
     ],
     [InlineKeyboardButton(text="❰𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❱", callback_data="GJ516_help")],
     [
-        InlineKeyboardButton(text="❰𝗖𝗵𝗮𝗻𝗻𝗲𝗹❱", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="❰𝗚𝗿𝗼𝘂𝗽❱", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="❰𝗖𝗵𝗮𝗻𝗻𝗲𝗹❱", url=f"https://t.me/GenZZNation0428"),
+        InlineKeyboardButton(text="❰𝗚𝗿𝗼𝘂𝗽❱", url=f"https://t.me/GenZZNation0428"),
+      
     ],
     [
         InlineKeyboardButton(text="❰𝙊𝙬𝙣𝙚𝙧❱", user_id=config.OWNER_ID),
@@ -66,7 +67,7 @@ gp_buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆", url=f"https://github.com/MrProgrammer72/GJ516Music"),
+        InlineKeyboardButton(text="𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆", url=f"https://t.me/Anik_x_pro"),
     ],
 ]
 
@@ -80,7 +81,7 @@ helpmenu = [
 
         InlineKeyboardButton(text="𝙎𝙪𝙙𝙤𝙪𝙨𝙚𝙧", callback_data="GJ516_cb sudo"),
     ],    
-    [   InlineKeyboardButton(text="⚡ 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 ⚡", url=f"https://github.com/MrProgrammer72/GJ516Music"),
+    [   InlineKeyboardButton(text="⚡ 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 ⚡", url=f"https://t.me/Anik_x_pro"),
     ],
     [
         InlineKeyboardButton(text="𝗕𝗮𝗰𝗸", callback_data="GJ516_home"),
